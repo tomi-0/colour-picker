@@ -34,7 +34,14 @@ h1{
 }
 
 .colour-select{
+    display: flex;
+    align-items: center;
     margin: 20px;
     font-size: 40px;
+}
 
+input[type="color"]{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
 }
